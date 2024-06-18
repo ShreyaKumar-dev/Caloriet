@@ -1,1 +1,1 @@
-# Caloriet : Personalized Diet Recommendation Website
+# <u>Caloriet</u> : Personalized Diet Recommendation Website

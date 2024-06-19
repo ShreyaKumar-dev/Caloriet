@@ -28,23 +28,23 @@ The motivation behind our project stems from the recognition of the crucial role
 The diet recommendation website is built on a client-server approach, with the latest web development frameworks and technologies. The system have the following components:
 <ol>
     <li>
-        <h5>Client-Side Interface:</h5><br>
+        <h5>Client-Side Interface:</h5>
         <p>Created with HTML, CSS, and JavaScript, the client-side interface offers users an intuitive and interactive experience. It allows visitors to navigate the website, enter data, and view recommendations with ease.</p> 
     </li>
     <li>
-        <h5>Server-Side Processing:</h5><br>
+        <h5>Server-Side Processing:</h5>
         <p>Server-side processing relies on Python as the scripting language and a web application framework, such as Flask. This component handles user queries, data processing, and personalized suggestions based on user input.</p> 
     </li>
     <li>
-        <h5>Database Management:</h5><br>
+        <h5>Database Management:</h5>
         <p>User profiles, recipe data, meal plans, and other relevant data will be kept on Firebase, a cloud-based NoSQL database, with Flask serving as the backend framework. This technique allows for scalability and real-time data synchronization, ensuring efficient data storage and retrieval to support the system's functionalities.</p> 
     </li>
     <li>
-        <h5>External APIs:</h5><br>
+        <h5>External APIs:</h5>
         <p>Integration with external APIs (Application Programming Interfaces) enables the website to access new data sources and services, expanding its capabilities and giving consumers complete recommendations. For example, the website might interface with nutrition databases or recipe repositories to gain access to nutritional information and grow its recipe bank. External APIs are accessible via HTTP (Hypertext Transfer Protocol) queries, and the server-side processing component processes the replies to provide relevant user recommendations.</p> 
     </li>
     <li>
-        <h5>Overall Architecture:</h5><br>
+        <h5>Overall Architecture:</h5>
         <p>The diet recommendation website's architecture is based on a client-server model, in which the client-side interface communicates with the server-side processing component to obtain data and functionality. The server-side processing component handles user requests, communicating with the database management component to retrieve and save data as needed. External APIs complement the website's data and functionality, improving the user experience and offering useful information for personalized suggestions.</p> 
     </li>
 </ol>

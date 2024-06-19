@@ -10,6 +10,7 @@ Table of content:
 <li><a href="#processdesign">Process Design</a></li>
 <li><a href="#technical">Technical Requirements</a></li>
 <li><a href="#designimp">Design & Implementation</a></li>
+<li><a href="#futurescope">Future Scope</a></li>
 </ol>
 <br>
 
@@ -118,4 +119,66 @@ Operating devices such as Laptops, computers, smartphones, and tablets.
         <img src="./doc_assets/Homepage3.png" alt="Homepage 3" height="350px">
         <img src="./doc_assets/Homepage4.png" alt="Homepage 4" height="350px">
     </li>
+    <li>
+        <h4>Login & Sign Up Page</h4>
+        <p>The login/sign-up page allows users to access the website's restricted features by logging in or creating new accounts.</p>
+        <img src="./doc_assets/SignInpage.png" alt="Sign In Page" height="350px">
+        <img src="./doc_assets/SignUppage.png" alt="Sign Up Page" height="350px">
+    </li>
+    <li>
+        <h4>BMR Page</h4>
+        <p>Users can provide their personal information, such as age, gender, weight, and height. The website computes the Basal Metabolic Rate (BMR) using a suitable formula based on the user's input. The determined BMR value is shown to the user. Based on the computer BMR, the website recommends personalized meal plans to help users accomplish their health and fitness goals. Meal plans are designed to suit the user's energy needs while keeping a healthy diet.</p>
+        <img src="./doc_assets/BMRpage.png" alt="BMR Page" height="350px">
+    </li>
+    <li>
+        <h4>Meal Plan Page</h4>
+        <p>The meal plan page allows users to examine their personalized meal plans by date. It provides menu alternatives for breakfast, lunch, dinner, and snacks, as well as recipes and nutritional information. Users can personalize their meal plans by adding or removing recipes, changing portion sizes, or indicating dietary preferences.</p>
+        <img src="./doc_assets/MealPlanpage.png" alt="Meal Plan Page" height="350px">
+    </li>
+    <li>
+        <h4>Recipe Generator Page</h4>
+        <p>The Recipe Search Page helps visitors select dishes based on available ingredients and dietary choices.</p>
+        <img src="./doc_assets/Recipepage1.png" alt="Recipe Page 1" height="350px">
+        <img src="./doc_assets/Recipepage2.png" alt="Recipe Page 2" height="350px">
+        <img src="./doc_assets/Recipepage3.png" alt="Recipe Page 3" height="350px">
+    </li>
+    <li>
+        <h4>Diet Track Page</h4>
+        <p>Users can track their daily macronutrient intake (carbs, lipids, proteins) and progress towards nutritional goals. It gives users a summary of their current nutritional consumption, including total calories and macronutrient breakdown.</p>
+        <img src="./doc_assets/DietTrackpage.jpg" alt="Diet Track Page 1" height="350px">
+        <img src="./doc_assets/DietTrackpage2.jpg" alt="Diet Track Page 2" height="350px">
+    </li>
 </ol>
+<br>
+<h3>Implementation</h3>
+The implementation phase of the diet suggestion website culminates the design and development work, yielding a functional system suitable for deployment. Here's a thorough summary of the installation process:
+<ul>
+    <li>
+        <h4>Frontend Development :</h4>The website's frontend is built with HTML, CSS, and JavaScript to produce a visually appealing and intuitive user interface. This includes creating navigation menus, input forms, recipe displays, and nutritional charts to increase user participation and engagement.
+    </li>
+    <li>
+        <h4>Backend Development :</h4>The website's backend is built using programming languages like Python or PHP, as well as web frameworks like Flask or Django. Server-side logic is created to handle user requests, process data, and generate personalized suggestions for recipes, meal planning, and dietary tracking.
+    </li>
+    <li>
+        <h4>Database Integration :</h4>The website's data is efficiently stored and managed using Firebase, a cloud-based NoSQL database, in collaboration with Flask. This arrangement provides scalability and real-time data synchronization, meeting the website's specific needs. In addition, a bespoke dataset transformed into an API is used for recipe recommendations, which improves the website's functionality and user experience.
+    </li>
+    <li>
+        <h4>Algorithm Implementation :</h4>The algorithms for recipe recommendation, meal planning, and nutritional tracking are implemented in the backend environment with programming languages and libraries designed for numerical calculation, data analysis, and machine learning. These algorithms employ user input, nutritional data, and machine learning techniques to provide personalized suggestions and insights to consumers.
+    </li>
+    <li>
+        <h4>Testing & Quality Assurance :</h4>The website undergoes rigorous testing to verify its functioning, performance, and usability. This covers unit testing, integration testing, regression testing, and user acceptance testing to find and resolve any problems, errors, or usability concerns prior to release.
+    </li>
+    <li>
+        <h4>Deployment and Monitoring :</h4>After testing is completed, the website is deployed to a production environment and made available to end users. Server configuration, security measures, performance optimization, and monitoring tools are all factors to consider when deploying a website to guarantee it runs consistently and efficiently in live environments.
+    </li>
+</ul>
+
+
+<h2 id="futurescope">Future Scope</h2>
+<ul>
+    <li>Enhanced Personalization</li>
+    <li>Integration with Wearable Devices</li>
+    <li>Social Sharing and Community Engagement</li>
+    <li>Advanced Analytics and Insights</li>
+    <li>Expansion of Recipe Database</li>
+</ul>

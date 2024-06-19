@@ -94,9 +94,9 @@ The algorithm and process design of the diet recommendation website are essentia
 
 
 <h2 id="technical">Technical Requirements</h2>
-<h4><u>Hardware</u></h4>
+<h4>Hardware</h4>
 Operating devices such as Laptops, computers, smartphones, and tablets.
-<h4><u>Software</u></h4>
+<h4>Software</h4>
 <ul>
     <li>Operating System (OS)</li>
     <li>Web Server Software</li>
@@ -108,3 +108,10 @@ Operating devices such as Laptops, computers, smartphones, and tablets.
 
 
 <h2 id="designimp">Design & Implementation</h2>
+<h3>Design</h3>
+<h4>Home Page</h4>
+The landing page serves as the entry point to the website and is also referred to as the home page. It includes an introduction to the website, outlining its aim, features, and benefits.<br><br>
+<img src="./doc_assets/Homepage1.png" alt="Homepage 1" height="300px">
+<img src="./doc_assets/Homepage2.png" alt="Homepage 2" height="300px">
+<img src="./doc_assets/Homepage3.png" alt="Homepage 3" height="300px">
+<img src="./doc_assets/Homepage4.png" alt="Homepage 4" height="300px">

@@ -113,9 +113,9 @@ Operating devices such as Laptops, computers, smartphones, and tablets.
     <li>
         <h4>Home Page</h4>
         <p>The landing page serves as the entry point to the website and is also referred to as the home page. It includes an introduction to the website, outlining its aim, features, and benefits.</p>
-        <img src="./doc_assets/Homepage1.png" alt="Homepage 1" height="400px">
-        <img src="./doc_assets/Homepage2.png" alt="Homepage 2" height="400px">
-        <img src="./doc_assets/Homepage3.png" alt="Homepage 3" height="400px">
-        <img src="./doc_assets/Homepage4.png" alt="Homepage 4" height="400px">
+        <img src="./doc_assets/Homepage1.png" alt="Homepage 1" height="350px">
+        <img src="./doc_assets/Homepage2.png" alt="Homepage 2" height="350px">
+        <img src="./doc_assets/Homepage3.png" alt="Homepage 3" height="350px">
+        <img src="./doc_assets/Homepage4.png" alt="Homepage 4" height="350px">
     </li>
 </ol>

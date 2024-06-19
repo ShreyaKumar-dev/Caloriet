@@ -9,9 +9,11 @@ Table of content:
 <li><a href="#architechture">Architechture</a></li>
 <li><a href="#processdesign">Process Design</a></li>
 <li><a href="#technical">Technical Requirements</a></li>
-<li><a href="#How-to-Run">Design & Implementation</a></li>
+<li><a href="#designimp">Design & Implementation</a></li>
 </ol>
 <br>
+
+
 <h2 id="problem">Problem Statement</h2>
 To address the absence of accessible and personalized nutritional advice appropriate to India's cultural and regional diversity. Despite the profusion of culinary materials, people frequently fail to sort through the large amount of dietary information available. There is also a demand for tools that promote successful meal planning and dietary tracking, allowing consumers to connect their eating habits with their health objectives.
 <br>
@@ -24,6 +26,8 @@ To address the absence of accessible and personalized nutritional advice appropr
 <h2 id="motivation">Motivation</h2>
 The motivation behind our project stems from the recognition of the crucial role that diet plays in overall health and well-being. With India's rich and diverse culinary tradition, there is an abundance of nutritious and delectable recipes that can be used to encourage healthier eating habits. Furthermore, the development of digital platforms has opened possibilities for democratizing access to dietary information and personalized advice. By leveraging technology, we hope to bridge the gap between traditional dietary wisdom and modern lifestyle needs, empowering individuals to adopt healthier dietary practices.
 <br>
+
+
 <h2 id="architechture">Architechture</h2>
 The diet recommendation website is built on a client-server approach, with the latest web development frameworks and technologies. The system have the following components:
 <ol>
@@ -48,6 +52,8 @@ The diet recommendation website is built on a client-server approach, with the l
         <p>The diet recommendation website's architecture is based on a client-server model, in which the client-side interface communicates with the server-side processing component to obtain data and functionality. The server-side processing component handles user requests, communicating with the database management component to retrieve and save data as needed. External APIs complement the website's data and functionality, improving the user experience and offering useful information for personalized suggestions.</p> 
     </li>
 </ol>
+
+
 <h2 id="processdesign">Process Design</h2>
 <img src="./doc_assets/Process_design.png" alt="Process Design" height="500px" width="600px">
 <br>
@@ -55,7 +61,7 @@ The algorithm and process design of the diet recommendation website are essentia
 <ol>
     <li>
         <h4>Recipe Recommendation Algorithm</h4>
-        <p>The recipe recommendation algorithm is at the heart of the website's recommendation engine, offering customers personalized meal choices based on their interests, dietary constraints, and accessible ingredients. The algorithm works as follows:</p>
+        <p>The recipe recommendation algorithm is at the heart of the website's recommendation engine, offering customers personalized meal choices based on their interests, dietary constraints, and accessible ingredients. <br>The method for recommending recipes based on user input, dietary preferences, and item availability is implemented in programming languages such as Python and PHP. The system generates personalized recommendations for users by considering aspects such as ingredient matching, user preferences, and nutritional analysis. <br>The algorithm works as follows:</p>
         <ul>
             <li><b>User Input :</b><br> The algorithm starts by gathering user information, such as dietary preferences (e.g., vegetarian, vegan, non-vegetarian), and ingredients available.</li>
             <li><b>Ingredient Matching :</b><br>Next, the algorithm compares the user's input to recipes in the database that employ comparable components or fit the given dietary requirements. It generates relevant recipe suggestions based on product availability, nutritional value, and user preferences.</li>
@@ -64,8 +70,8 @@ The algorithm and process design of the diet recommendation website are essentia
         </ul>
     </li>
     <li>
-        <h4>Food Planning Algorithm</h4>
-        <p>The meal planning algorithm helps customers create personalized meal plans that are tailored to their dietary objectives, interests, and nutritional needs. The algorithm generates balanced and different meal plans in a methodical manner:</p>
+        <h4>Meal Planning Algorithm</h4>
+        <p>The meal planning algorithm helps customers create personalized meal plans that are tailored to their dietary objectives, interests, and nutritional needs.<br>The algorithm for generating personalized meal plans based on user profiles, nutritional goals, and dietary restrictions is implemented using programming languages and frameworks such as Python, Flask, Django, or JavaScript. The algorithm takes into account nutritional balance, meal variety, and user feedback to provide balanced and diverse meal plans that are personalized to individual needs. <br>The algorithm generates balanced and different meal plans in a methodical manner:</p>
         <ul>
             <li><b>User Profile :</b><br> The algorithm begins by analyzing the user's profile, which includes demographic information, dietary habits, and nutritional goals. It customizes the meal plan based on the user's age, gender, weight, height, exercise level, and dietary restrictions.</li>
             <li><b>Nutritional Analysis :</b><br> Next, the algorithm conducts a nutritional analysis of the user's dietary intake to identify any deficiencies or imbalances in macronutrients (carbohydrates, fats, proteins) and micronutrients (vitamins, minerals). It calculates the recommended daily intake of each nutrient based on established dietary guidelines and compares it with the user's actual intake.</li>
@@ -76,7 +82,7 @@ The algorithm and process design of the diet recommendation website are essentia
     </li>
     <li>
         <h4>Dietary Tracking Process</h4>
-        <p>Dietary tracking allows users to track their daily macronutrient intake (carbohydrates, fats, and proteins) and progress towards nutritional objectives. The method includes the following steps:</p>
+        <p>Dietary tracking allows users to track their daily macronutrient intake (carbohydrates, fats, and proteins) and progress towards nutritional objectives. <br>The algorithm for tracking users' daily macronutrient consumption and measuring their progress towards nutritional goals is implemented in computer languages and database query languages such as SQL. The program collects and analyses user data from the database, calculates nutritional indicators, and creates visualizations and reports to assist users in understanding their dietary patterns and making informed decisions. <br>The method includes the following steps:</p>
         <ul>
             <li><b>Data Collection :</b><br> Users enter their daily food consumption into the website, either manually or by selecting from a prepared database of foods and recipes. The website keeps track of the amount and type of food ingested, as well as any additional information like mealtimes and dish sizes.</li>
             <li><b>Nutritional Analysis :</b><br> The website examines the nutritional value of the meals ingested, estimating the total intake of macronutrients and micronutrients for each meal and day.</li>
@@ -85,6 +91,7 @@ The algorithm and process design of the diet recommendation website are essentia
         </ul>
     </li>
 </ol>
+
 
 <h2 id="technical">Technical Requirements</h2>
 <h4><u>Hardware</u></h4>
@@ -98,3 +105,6 @@ Operating devices such as Laptops, computers, smartphones, and tablets.
     <li>External APIs and Services</li>
     <li>Security software, such as firewalls, intrusion detection systems (IDS), and antivirus software</li>
 </ul>
+
+
+<h2 id="designimp">Design & Implementation</h2>

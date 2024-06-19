@@ -49,7 +49,7 @@ The diet recommendation website is built on a client-server approach, with the l
     </li>
 </ol>
 <h2 id="processdesign">Process Design</h2>
-<img src="./doc_assets/Process_design.png" alt="Process Design" height="300px">
+<img src="./doc_assets/Process_design.png" alt="Process Design" height="500px">
 <br>
 The algorithm and process design of the diet recommendation website are essential components that drive the generation of personalized recommendations and facilitate user interaction. Here's a detailed overview of the algorithms and processes involved:
 <ol>
@@ -57,7 +57,7 @@ The algorithm and process design of the diet recommendation website are essentia
         <h4>Recipe Recommendation Algorithm</h4>
         <p>The recipe recommendation algorithm is at the heart of the website's recommendation engine, offering customers personalized meal choices based on their interests, dietary constraints, and accessible ingredients. The algorithm works as follows:</p>
         <ul>
-            <li><b>User Input:</b> The algorithm starts by gathering user information, such as dietary preferences (e.g., vegetarian, vegan, non-vegetarian), and ingredients available.</li>
+            <li><b>User Input:</b><br> The algorithm starts by gathering user information, such as dietary preferences (e.g., vegetarian, vegan, non-vegetarian), and ingredients available.</li>
             <li><b>Ingredient Matching: </b>Next, the algorithm compares the user's input to recipes in the database that employ comparable components or fit the given dietary requirements. It generates relevant recipe suggestions based on product availability, nutritional value, and user preferences.</li>
             <li><b>Personalization:</b> The algorithm tailors the recommendations based on user-specific information such as nutritional goals, cooking ability level, and meal preferences. It uses user feedback and interaction data to fine-tune its recommendations over time.</li>
             <li><b>Ranking and Presentation:</b> Finally, the algorithm ranks the recommended recipes based on relevance and presents them to the user in an intuitive and visually appealing format. It may leverage criteria like recipe popularity, user reviews, and seasonality to improve the quality of recommendations.</li>

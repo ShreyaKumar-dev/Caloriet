@@ -64,7 +64,7 @@ The algorithm and process design of the diet recommendation website are essentia
         </ul>
     </li>
     <li>
-        <h5>Food Planning Algorithm</h5>
+        <h4>Food Planning Algorithm</h4>
         <p>The meal planning algorithm helps customers create personalized meal plans that are tailored to their dietary objectives, interests, and nutritional needs. The algorithm generates balanced and different meal plans in a methodical manner:</p>
         <ul>
             <li><b>User Profile:</b> The algorithm begins by analyzing the user's profile, which includes demographic information, dietary habits, and nutritional goals. It customizes the meal plan based on the user's age, gender, weight, height, exercise level, and dietary restrictions.</li>

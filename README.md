@@ -7,7 +7,7 @@ Table of content:
 <li><a href="#objective">Objective</a></li>
 <li><a href="#Overview">Motivation</a></li>
 <li><a href="#architechture">Architechture</a></li>
-<li><a href="#Features">Process Design</a></li>
+<li><a href="#processdesign">Process Design</a></li>
 <li><a href="#Technical-Requirements">Technical Requirements</a></li>
 <li><a href="#How-to-Run">Design & Implementation</a></li>
 </ol>
@@ -48,3 +48,31 @@ The diet recommendation website is built on a client-server approach, with the l
         <p>The diet recommendation website's architecture is based on a client-server model, in which the client-side interface communicates with the server-side processing component to obtain data and functionality. The server-side processing component handles user requests, communicating with the database management component to retrieve and save data as needed. External APIs complement the website's data and functionality, improving the user experience and offering useful information for personalized suggestions.</p> 
     </li>
 </ol>
+<h2 id="processdesign">Process Design</h2>
+<img source="doc_assets\Process_design.png" alt="Process Design" height="300px">
+<br>
+The algorithm and process design of the diet recommendation website are essential components that drive the generation of personalized recommendations and facilitate user interaction. Here's a detailed overview of the algorithms and processes involved:
+<ol>
+    <li>
+        <h5>Recipe Recommendation Algorithm</h5>
+        <p>The recipe recommendation algorithm is at the heart of the website's recommendation engine, offering customers personalized meal choices based on their interests, dietary constraints, and accessible ingredients. The algorithm works as follows:</p>
+        <ul>
+            <li><b>User Input:</b> The algorithm starts by gathering user information, such as dietary preferences (e.g., vegetarian, vegan, non-vegetarian), and ingredients available.</li>
+            <li><b>Ingredient Matching: </b>Next, the algorithm compares the user's input to recipes in the database that employ comparable components or fit the given dietary requirements. It generates relevant recipe suggestions based on product availability, nutritional value, and user preferences.</li>
+            <li><b>Personalization:</b> The algorithm tailors the recommendations based on user-specific information such as nutritional goals, cooking ability level, and meal preferences. It uses user feedback and interaction data to fine-tune its recommendations over time.</li>
+            <li><b>Ranking and Presentation:</b> Finally, the algorithm ranks the recommended recipes based on relevance and presents them to the user in an intuitive and visually appealing format. It may leverage criteria like recipe popularity, user reviews, and seasonality to improve the quality of recommendations.</li>
+        </ul>
+    </li>
+    <li>
+        <h5>Food Planning Algorithm</h5>
+        <p>The meal planning algorithm helps customers create personalized meal plans that are tailored to their dietary objectives, interests, and nutritional needs. The algorithm generates balanced and different meal plans in a methodical manner:</p>
+        <ul>
+            <li><b>User Profile:</b> The algorithm begins by analyzing the user's profile, which includes demographic information, dietary habits, and nutritional goals. It customizes the meal plan based on the user's age, gender, weight, height, exercise level, and dietary restrictions.</li>
+            <li><b>Nutritional Analysis:</b> Next, the algorithm conducts a nutritional analysis of the user's dietary intake to identify any deficiencies or imbalances in macronutrients (carbohydrates, fats, proteins) and micronutrients (vitamins, minerals). It calculates the recommended daily intake of each nutrient based on established dietary guidelines and compares it with the user's actual intake.</li>
+            <li><b>Meal Composition:</b> Based on the nutritional analysis and user preferences, the algorithm recommends meals for breakfast, lunch, supper, and snacks. It attempts for a macronutrient and micronutrient balance across meals while considering the user's taste preferences, cultural background, and cooking ability level.</li>
+            <li><b>Variety and Flexibility:</b> The algorithm prioritizes variety and flexibility in meal planning, providing a varied selection of recipes and meal selections to avoid monotony and improve plan adherence. It enables users to tailor their meal plans by picking alternate recipes or altering portion amounts to their own requirements.</li>
+            <li><b>Long-Term Planning:</b> In addition to daily meal planning, the algorithm facilitates long-term planning by allowing users to book meals ahead of time and establish weekly or monthly meal plans. It considers factors such as budget constraints, grocery availability, and social events to accommodate users' lifestyle and preferences.</li>
+        </ul>
+    </li>
+</ol>
+

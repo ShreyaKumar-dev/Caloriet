@@ -1,5 +1,5 @@
-# Caloriet : Personalized Diet Recommendation Website
-Caloriet is a web application that provides personalized diet recommendations based on users' dietary needs
+# Caloriet
+Caloriet is a web application that provides <u>personalized diet</u> recommendations based on users' deatils.
 <br><br>
 Table of content:
 <ol>
@@ -17,7 +17,7 @@ To address the absence of accessible and personalized nutritional advice appropr
 <br>
 <h2 id="objective">Objective</h2>
 <ul>
-<li>Develop a user-friendly web application catering to the diverse regional cuisines of India.<li>
+<li>Develop a user-friendly web application catering to the diverse regional cuisines of India.</li>
 <li>Provide personalized meal plans and dietary tracking functionalities to empower users to make informed dietary choices.</li>
 <li>Offer a robust recipe recommendation system based on user preferences and available ingredients.</li>
 </ul>

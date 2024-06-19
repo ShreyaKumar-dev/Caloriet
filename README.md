@@ -49,7 +49,7 @@ The diet recommendation website is built on a client-server approach, with the l
     </li>
 </ol>
 <h2 id="processdesign">Process Design</h2>
-<img source="doc_assets\Process_design.png" alt="Process Design" height="300px">
+<img source="./doc_assets/Process_design.png" alt="Process Design" height="300px">
 <br>
 The algorithm and process design of the diet recommendation website are essential components that drive the generation of personalized recommendations and facilitate user interaction. Here's a detailed overview of the algorithms and processes involved:
 <ol>

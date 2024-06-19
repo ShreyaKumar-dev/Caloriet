@@ -8,7 +8,7 @@ Table of content:
 <li><a href="#Overview">Motivation</a></li>
 <li><a href="#architechture">Architechture</a></li>
 <li><a href="#processdesign">Process Design</a></li>
-<li><a href="#Technical-Requirements">Technical Requirements</a></li>
+<li><a href="#technical">Technical Requirements</a></li>
 <li><a href="#How-to-Run">Design & Implementation</a></li>
 </ol>
 <br>
@@ -49,7 +49,7 @@ The diet recommendation website is built on a client-server approach, with the l
     </li>
 </ol>
 <h2 id="processdesign">Process Design</h2>
-<img src="./doc_assets/Process_design.png" alt="Process Design" height="500px">
+<img src="./doc_assets/Process_design.png" alt="Process Design" height="500px" width="800px">
 <br>
 The algorithm and process design of the diet recommendation website are essential components that drive the generation of personalized recommendations and facilitate user interaction. Here's a detailed overview of the algorithms and processes involved:
 <ol>
@@ -74,5 +74,27 @@ The algorithm and process design of the diet recommendation website are essentia
             <li><b>Long-Term Planning :</b><br> In addition to daily meal planning, the algorithm facilitates long-term planning by allowing users to book meals ahead of time and establish weekly or monthly meal plans. It considers factors such as budget constraints, grocery availability, and social events to accommodate users' lifestyle and preferences.</li>
         </ul>
     </li>
+    <li>
+        <h4>Dietary Tracking Process</h4>
+        <p>Dietary tracking allows users to track their daily macronutrient intake (carbohydrates, fats, and proteins) and progress towards nutritional objectives. The method includes the following steps:</p>
+        <ul>
+            <li><b>Data Collection :</b><br> Users enter their daily food consumption into the website, either manually or by selecting from a prepared database of foods and recipes. The website keeps track of the amount and type of food ingested, as well as any additional information like mealtimes and dish sizes.</li>
+            <li><b>Nutritional Analysis :</b><br> The website examines the nutritional value of the meals ingested, estimating the total intake of macronutrients and micronutrients for each meal and day.</li>
+            <li><b>Visualizations and Reports :</b><br> The website generates visualizations and reports that display the user's dietary data in an understandable and helpful manner. These could include charts, graphs, and summaries that emphasize trends, patterns, and areas for improvement in the user's eating habits.</li>
+            <li><b>Feedback and Recommendations :</b><br> Using dietary monitoring data, the website gives personalized feedback and recommendations to assist users make smart nutrition decisions. This may include advice for changing their diet, lowering portion sizes, or introducing more nutrient-dense foods.</li>
+        </ul>
+    </li>
 </ol>
 
+<h2 id="technical">Technical Requirements</h2>
+<h4><u>Hardware</u></h4>
+Operating devices such as Laptops, computers, smartphones, and tablets.
+<h4><u>Software</u></h4>
+<ul>
+    <li>Operating System (OS)</li>
+    <li>Web Server Software</li>
+    <li>Database Management System (DBMS)</li>
+    <li>Programming Languages and Frameworks</li>
+    <li>External APIs and Services</li>
+    <li>Security software, such as firewalls, intrusion detection systems (IDS), and antivirus software</li>
+</ul>
